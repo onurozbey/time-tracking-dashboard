@@ -252,7 +252,7 @@ body {
   background-image: url(../images/icon-social.svg);
 }
 
-.self-care {
+.selfcare {
   background-color: #f1c65b;
   background-image: url(../images/icon-self-care.svg);
 }
@@ -270,6 +270,18 @@ body {
 }
 
 @media screen and (min-width: 480px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100vh;
+  }
   .container {
     display: -ms-grid;
     display: grid;
@@ -369,5 +381,17 @@ body {
   .regular-card .property-card .row-2 .description {
     padding-top: 1rem;
   }
+}
+
+.attribution {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.attribution a {
+  color: lightcoral;
 }
 /*# sourceMappingURL=style.css.map */
