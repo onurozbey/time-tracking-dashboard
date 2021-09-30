@@ -28,7 +28,7 @@ fetch('./../data.json')
 
 // --- Functions ---
 
-function menuOnClick(event){
+function menuOnClick(event) {
     menu.forEach(element => {
         element.classList.remove('menu-active');
     });
@@ -38,7 +38,7 @@ function menuOnClick(event){
     updateCards(timeframe);
 }
 
-function updateCards(timeframe){
+function updateCards(timeframe) {
     regularCards.forEach(card => {
         updateCard(card, timeframe);
     });
