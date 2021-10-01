@@ -11,7 +11,7 @@ menu.forEach(element => {
 
 let data = {};
 
-fetch('./../data.json')
+fetch('./src/data.json')
     .then(rsp => rsp.json())
     .then(jsonData => {
 
